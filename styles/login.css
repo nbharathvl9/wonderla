@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'melted';
+    src: url(../fonts/melted-font/MeltedPersonalUseBold-2OG4w.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'wobble';
+    src: url(../fonts/super-woobly-font/SuperWoobly-8MJlz.ttf) format('truetype');
+}
+body{
+    margin: 0;
+}
+.navbar{
+    width: 100%;
+    height: 12vh;
+    background-color:black ;
+}
+
+.main-container{
+    height: 90.6vh;
+    margin-top: -20px;
+    background-color: beige;
+    border-top-right-radius:18px ;
+    border-top-left-radius: 18px ;
+}
+
+.wonderla{
+    margin-top: -805px;
+    color: aliceblue;
+    margin-left: 120px;   
+    font-family: 'melted';
+    font-size: x-large;
+}
+
+.profile{
+    width: 150px;
+    height: 55px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 80vw;
+    margin-top: -90px;
+}
+
