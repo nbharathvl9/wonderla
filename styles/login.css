@@ -18,14 +18,14 @@ body{
 
 .main-container{
     height: 90.6vh;
-    margin-top: -20px;
+    margin-top: -2vh;
     background-color: beige;
     border-top-right-radius:18px ;
     border-top-left-radius: 18px ;
 }
 
 .wonderla{
-    margin-top: -805px;
+    margin-top: -103.5vh;
     color: aliceblue;
     margin-left: 120px;   
     font-family: 'melted';
@@ -39,5 +39,91 @@ body{
     border-radius: 20px;
     margin-left: 80vw;
     margin-top: -90px;
+}
+
+.explore:focus {
+    outline: none;
+}
+
+.explore{
+    font-weight: 1000;
+    font-size: 17px;
+    transition: all 250ms;
+    cursor: pointer;
+    appearance: none;
+    text-align: center;
+    width: 150px;
+    height: 55px;
+    border-radius: 20px;
+}
+
+.explore::before {
+    content: "";
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    transition: all 250ms
+}
+.explore:hover {
+    background-color: #212121;
+    color: #e8e8e8;
+}
+.explore:hover::before {
+ width: 100%;
+}
+
+.form{
+    margin-top: 20vh;
+    margin-left: 11vw;
+    background-image: url('https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_698,h_698/v1683919251/assets/42/a29147-e043-42f9-8544-ecfffe0532e9/original/travel-ilustra.png');    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 80vh;
+    width: 40vw;
+}
+
+#h1log{
+    transition:  0.3s ease;
+}
+
+#h1log:hover{
+    transform: scale(1.08); 
+}
+
+.input-div{
+    margin-left: 65vw;
+    margin-top: -90vh;
+    font-size: xx-large;
+}
+
+.input{
+    color: black;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border-width:0;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size:  large;
+    transition:  cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.3s ease, transform 0.3s ease;
+}
+
+.input:focus::placeholder {
+    color: transparent;
+}
+
+.input::placeholder {
+    transition: color 0.3s ease;
+}
+
+input:hover::placeholder{
+    color: #e8e8e8;
+}
+
+input:hover{
+    color: white;
+    background-color: black;
+    transform: scale(1.05);
 }
 
