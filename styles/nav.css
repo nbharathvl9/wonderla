@@ -3,33 +3,38 @@
     src: url(../fonts/melted-font/MeltedPersonalUseBold-2OG4w.ttf) format('truetype');
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 @font-face {
-    font-family: 'wobble';
-    src: url(../fonts/super-woobly-font/SuperWoobly-8MJlz.ttf) format('truetype');
+    font-family: 'crew27';
+    src: url(../fonts/darlington-font/DarlingtonDemo-z8xjG.ttf) format('truetype');
 }
 
-
 .navbar-brand {
-    font-family: 'melted', sans-serif;
+    font-family: 'crew27', sans-serif;
     letter-spacing: 3px;
     font-size: 40px;
-    color: #7f4722;
-  }
-  
-.navbar-brand:hover {
     color: beige;
- }
-  
+  }
+
+.navbar-brand:hover{
+    color: beige;
+}
+
 .navbar-scroll .nav-link,
 .navbar-scroll .fa-bars {
-   color: #7f4722;
+   color: beige;
+   font-family: "Raleway", sans-serif;
+
 }
   
 .navbar-scrolled .nav-link,
 .navbar-scrolled .fa-bars {
-   color: #7f4722;
+   color: beige;
+   font-family: "Raleway", sans-serif;
 }
   
 .navbar-scrolled {
    background-color: #ffede7;
+   font-family: "Raleway", sans-serif;
 }

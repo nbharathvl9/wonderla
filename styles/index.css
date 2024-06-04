@@ -1,3 +1,21 @@
 body{
     background-color: beige;
 }
+
+@font-face {
+    font-family: 'crew27';
+    src: url('../fonts/darlington-font/DarlingtonDemo-z8xjG.ttf') format('truetype');
+}
+
+#carousel{
+    font-family:  'crew27' , 'sans-serif';
+    
+}
+
+#carousel h5{
+    font-size: 80px;
+}
+
+#carousel p{
+    font-size: 50px;
+}
