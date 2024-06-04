@@ -28,19 +28,69 @@ body{
     margin-top: -103.5vh;
     color: aliceblue;
     margin-left: 120px;   
-    font-family: 'melted';
     font-size: x-large;
 }
 
+
+.radio-inputs {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0.5rem;
+    background-color: #EEE;
+    box-sizing: border-box;
+    box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
+    padding: 0.2rem;
+    width: 300px;
+    font-size: 14px;
+  }
+
+  .radio-inputs .radio {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+  
+  .radio-inputs .radio input {
+    display: none;
+  }
+  
+  .radio-inputs .radio .name {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    border: none;
+    height: 40px;
+    color: rgba(51, 65, 85, 1);
+    transition: all .15s ease-in-out;
+  }
+  
+
+ 
 .profile{
-    width: 150px;
+    width: 250px;
     height: 55px;
-    background-color: white;
     border-radius: 20px;
-    margin-left: 80vw;
-    margin-top: -90px;
+    margin-left: 75vw;
+    margin-top: -80px;
+    
 }
 
+.navbutton{
+    cursor: pointer;
+    border: none;
+    height: 35px;
+    width: 70px;
+    background-color: transparent;
+    transition: 0.3s ease;
+}
+
+.navbutton:hover{
+    transform:scale(1.6);
+    background-color:black;
+    color: white;
+}
 .explore:focus {
     outline: none;
 }
@@ -81,6 +131,11 @@ body{
     border-top-right-radius: 20px;
     height: 80vh;
     width: 40vw;
+    transition:  0.3s ease;
+}
+
+.form:hover{
+    transform: scale(1.05);
 }
 
 #h1log{
