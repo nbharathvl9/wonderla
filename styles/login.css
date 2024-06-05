@@ -2,7 +2,10 @@
     font-family: 'melted';
     src: url(../fonts/melted-font/MeltedPersonalUseBold-2OG4w.ttf) format('truetype');
 }
-
+::selection {
+    background-color: rgb(0, 0, 0); /* Background color of the selected text */
+    color: #FFFFFF; /* Text color of the selected text */
+}
 @font-face {
     font-family: 'wobble';
     src: url(../fonts/super-woobly-font/SuperWoobly-8MJlz.ttf) format('truetype');
@@ -29,6 +32,7 @@ body{
     color: aliceblue;
     margin-left: 120px;   
     font-size: x-large;
+    display: flex;
 }
 
 
@@ -181,4 +185,3 @@ input:hover{
     background-color: black;
     transform: scale(1.05);
 }
-
